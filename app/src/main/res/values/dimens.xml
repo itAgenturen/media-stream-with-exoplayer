@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="itemHeight">200dp</dimen>
+    <dimen name="textS">12sp</dimen>
+    <dimen name="textM">14sp</dimen>
+    <dimen name="textL">16sp</dimen>
+    <dimen name="textXL">18sp</dimen>
+    <dimen name="textXXL">20sp</dimen>
+
+    <dimen name="spacingXXS">2dp</dimen>
+    <dimen name="spacingXS">5dp</dimen>
+    <dimen name="spacingS">10dp</dimen>
+    <dimen name="radiusM">5dp</dimen>
+</resources>

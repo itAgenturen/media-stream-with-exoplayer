@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "The Mango Open Movie Project",
+    "image": "scifi.png",
+    "production": "Blender Foundation",
+    "url": "https://dash.akamaized.net/dash264/TestCasesIOP33/adapatationSetSwitching/5/manifest.mpd",
+    "type": "DASH_MP4",
+    "isLive": false
+  },
+  {
+    "id": 2,
+    "name": "Elephant Dreams",
+    "image": "elephantdreams.png",
+    "production": "The orange open movie project",
+    "url": "https://dash.akamaized.net/dash264/TestCases/2c/qualcomm/1/MultiResMPEG2.mpd",
+    "type": "DASH_MP4",
+    "isLive": false
+  },
+  {
+    "id": 3,
+    "name": "Red Bull Advertisement",
+    "image": "redbull.png",
+    "production": "Red Bull Production",
+    "url": "https://bitmovin-a.akamaihd.net/content/MI201109210084_1/mpds/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.mpd",
+    "type": "DASH_MP4",
+    "isLive": false
+  },
+  {
+    "id": 4,
+    "name": "Akamai Random Live Show",
+    "image": "scifi2.png",
+    "production": "Unkown Production",
+    "url": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
+    "type": "HLS_TS",
+    "isLive": true
+  },
+  {
+    "id": 5,
+    "name": "Big Buck Bunny",
+    "image": "bigbuckbunny.png",
+    "production": "The Peach OpenMovie Project",
+    "url": "https://cdn.flowplayer.com/a30bd6bc-f98b-47bc-abf5-97633d4faea0/hls/de3f6ca7-2db3-4689-8160-0f574a5996ad/playlist.m3u8",
+    "type": "HLS_TS",
+    "isLive": false
+  }
+]

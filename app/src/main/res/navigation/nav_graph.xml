@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/VideosFragment">
+
+    <fragment
+        android:id="@+id/VideosFragment"
+        android:name="com.app.exoplayerdemo.ui.videos.VideosFragment"
+        android:label="@string/videos_fragment_label"
+        tools:layout="@layout/fragment_videos">
+
+        <action
+            android:id="@+id/action_VideoFragment_to_PlayerFragment"
+            app:destination="@id/PlayerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/PlayerFragment"
+        android:name="com.app.exoplayerdemo.ui.player.PlayerFragment"
+        android:label="@string/player_fragment_label"
+        tools:layout="@layout/fragment_player">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/VideosFragment" />
+    </fragment>
+</navigation>
